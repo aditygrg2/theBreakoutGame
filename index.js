@@ -161,7 +161,7 @@ function gameWin(){
     document.getElementById('textUser').innerText = "Thanks for playing!";
     document.getElementById('beware').innerText = "Reloading in 2 seconds...";
     setTimeout(function(){
-        location.reload();
+        location.reload(true);
     },2000);
 }
 
