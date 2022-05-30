@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Javascript Canvas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="canvas" class="hover:bg-slate-50"></canvas>
+    <h1 class="text-4xl absolute text-center top-1/2 invisible xl:visible 2xl:visible lg:visible sm:invisible left-10 hover:underline" id="HelpMessage1">Press Space to Start!</h1>
+    <h1 class="text-4xl absolute text-center top-1/2 visible sm:visible md:visible lg:invisible left-10 hover:underline" id="HelpMessage2">Tap to Start!</h1>
+    <h1 class="absolute bottom-8 left-2 text-2xl w-3/4" id="textUser">Welcome to the breakout game!</h1>
+    <h1 id="beware" class=" text-red-400 absolute bottom-3 left-2">Made by Aditya using pure JS</h1>
+    <h1 class="text-2xl bottom-10 absolute right-8">Score : <span id="score">0</span></h1>
+    <h1 class="text-2xl bottom-2 absolute transition-all duration-200 right-8">Lives : <span id="lives">3</span></h1>
+
+    <script src="index.js"></script>
+</body>
+</html>
